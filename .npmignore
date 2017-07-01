@@ -1,0 +1,8 @@
+*.sh
+*.md
+node_modules
+.idea
+*.json
+.gitignore
+.npmignore
+*.log
