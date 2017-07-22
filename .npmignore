@@ -1,8 +1,11 @@
-*.sh
-*.md
 node_modules
 .idea
+*.sh
+*.md
+*.log
 *.json
+*.ts
 .gitignore
 .npmignore
-*.log
+!*.d.ts
+
