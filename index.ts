@@ -8,6 +8,8 @@ export interface IFEPStdObj {
   [key: string]: any
 }
 
+const log = console.log.bind(console, '[freeze]');
+
 export const freezeExistingProps = function ($obj: any, depth?: number) {
 
   depth = depth || 0;
@@ -21,6 +23,7 @@ export const freezeExistingProps = function ($obj: any, depth?: number) {
     Object.keys(obj).forEach(function (key) {
 
       try {
+        // log('freezing property', key, 'of object', obj);
         Object.defineProperty(obj, key, {
           writable: false
         });

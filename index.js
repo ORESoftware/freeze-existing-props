@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert = require("assert");
+var log = console.log.bind(console, '[freeze]');
 exports.freezeExistingProps = function ($obj, depth) {
     depth = depth || 0;
     assert(Number.isInteger(depth), 'depth value must be an integer.');
