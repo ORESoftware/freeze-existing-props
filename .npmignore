@@ -11,10 +11,13 @@ test
 *.json
 *.ts
 *.txt
+*.yml
 
 ### files
 .gitignore
 .npmignore
+.editorconfig
+yarn.lock
 
 ### negation
 !*.d.ts
