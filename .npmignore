@@ -5,6 +5,7 @@ node_modules
 test
 scripts
 src
+.docker.r2g
 
 ### matching files
 *.md
@@ -12,8 +13,11 @@ src
 *.json
 *.txt
 *.yml
+*.tgz
+Dockerfile*
 
 ### files
+
 .gitignore
 .npmignore
 .editorconfig
