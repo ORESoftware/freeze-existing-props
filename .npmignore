@@ -3,13 +3,13 @@
 node_modules
 .idea
 test
+scripts
+src
 
 ### matching files
-*.sh
 *.md
 *.log
 *.json
-*.ts
 *.txt
 *.yml
 
@@ -19,6 +19,5 @@ test
 .editorconfig
 yarn.lock
 
-### negation
-!*.d.ts
+
 

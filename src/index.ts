@@ -8,6 +8,10 @@ export interface IFEPStdObj {
   [key: string]: any
 }
 
+export const r2gSmokeTest = function () {
+  return true;
+};
+
 const log = console.log.bind(console, '[freeze]');
 
 export const freezeExistingProps = function ($obj: any, depth?: number) {
