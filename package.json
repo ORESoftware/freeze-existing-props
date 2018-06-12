@@ -1,6 +1,6 @@
 {
   "name": "freeze-existing-props",
-  "version": "0.0.1003",
+  "version": "0.0.1004",
   "description": "Freeze existing props on an object",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
